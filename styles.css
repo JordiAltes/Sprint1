@@ -1,4 +1,33 @@
+* {
+    margin:10px;
+    padding: 10px;
+    box-sizing: border-box; 
+}
+.father{
+    background-color: white;
+}
+    .bigBox1 {
+        background-color: black;
+    }
+        .smallBox1{
+            background-color: #EB6440;
+        }
+            .leftBox{
+                background-color: #497174;
+            }
+            .centerBox {
+                background-color: #497174;
+            }
+            .rightBox {
+                background-color: #497174;
+            }
 
+    .bigBox2 {
+        background-color: black;
+    }
+    .bigBox3 {
+        background-color: black;
+    }
 
 
 
