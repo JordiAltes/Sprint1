@@ -21,50 +21,35 @@
             .rightBox {
                 background-color: #497174;
             }
+        .smallBox2 {
+            background-color: #F0FF42;
+        }
+            .insideSmallBox2 {
+                background-color: aqua;
+            }
 
     .bigBox2 {
         background-color: black;
     }
+        .smallBox3 {
+            background-color: #9F8772;
+        }
+            .insideSmallBox3 {
+                background-color: #002E94;
+            }
+            .inside2SmallBox3 {
+                background-color: #372948;
+            }
+        .smallBox4 {
+            background-color: #DD5353;
+        }
+            .insideSmallBox4 {
+                background-color: #06283D;
+            }
+
     .bigBox3 {
         background-color: black;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .bigBox1 {
-background-color: black;
-max-width: 100%;
-padding: 3%;
-}
- .smallBox1 {
-    background-color: #F49D1A;
-    padding: 2%;
-    margin-bottom: 1%;
-    max-width: 99%;
-}
-.smallBox2 {
-    background-color: #A0E4CB;
-    padding: 2%;
-    max-width: 99%;
-} */
+        .smallBox5 {
+            background-color: #FCFFB2;
+        }
