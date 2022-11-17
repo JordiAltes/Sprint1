@@ -39,18 +39,25 @@
 
     .bigBox2 {
         background-color: black;
+        display: flex;
     }
         .smallBox3 {
             background-color: #9F8772;
+            flex: 2 1 auto;
+            display: flex;
+            flex-flow: row wrap;
         }
             .insideSmallBox3 {
                 background-color: #002E94;
+                flex: 1 1 40%;
             }
             .inside2SmallBox3 {
                 background-color: #372948;
+                flex: 1 1 100%;
             }
         .smallBox4 {
             background-color: #DD5353;
+            flex: 1 1 auto;
         }
             .insideSmallBox4 {
                 background-color: #06283D;
