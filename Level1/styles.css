@@ -69,3 +69,9 @@
         .smallBox5 {
             background-color: #FCFFB2;
         }
+@media screen and (max-width:800px) {
+    .bigBox2 {
+        background-color: #F0FF42;
+        flex-direction: column;
+    }
+}
