@@ -69,9 +69,30 @@
         .smallBox5 {
             background-color: #FCFFB2;
         }
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
     .bigBox2 {
         background-color: #F0FF42;
         flex-direction: column;
+    }
+}
+@media screen and (max-width: 460px) {
+    .smallBox1 {
+        flex-direction: column;
+    }
+    .smallBox3 {
+        flex-direction: column;
+        background-color: #829460;
+    }
+    .insideSmallBox3 {
+        background-color: #EEEEEE;
+    }
+    .smallBox4 {
+        background-color: #31C6D4;
+    }
+    .insideSmallBox4 {
+        background-color: #FF9494;
+    }
+    .smallBox5 {
+        background-color: #A62349;
     }
 }
