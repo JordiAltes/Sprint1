@@ -3,25 +3,32 @@
     padding: 10px;
     box-sizing: border-box; 
 }
+body {
+    font-family: 'Open Sans', sans-serif;
+}
 .father{
-    background-color: white;
     display: flex;
     flex-flow: column nowrap;
 }
     .bigBox1 {
-        background-color: black;
+        background: url(images/header.jpg);
+        background-position: center;
+        /*background-attachment: contain; /* marca si la imatge es fixa o mobil quan es fa scroll*/
+        background-size: cover;
         display: flex;
         flex-flow: column nowrap;
     }
         .smallBox1{
-            background-color: #EB6440;
             display: flex;
             flex-flow: row nowrap;
         }
             .leftBox{
-                background-color: #497174;
-                flex: 1 1 auto;
+                flex: 1 1 auto;;
             }
+                .imagenLogo {
+                    width: 70px;
+                    height: 70px;
+                }
             .centerBox {
                 background-color: #497174;
                 flex: 10 1 auto;
