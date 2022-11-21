@@ -1,6 +1,8 @@
 * {
-    margin:10px;
-    padding: 10px;
+    margin: 2px;
+    padding-top: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
     box-sizing: border-box; 
 }
 body {
@@ -17,31 +19,56 @@ body {
         background-size: cover;
         display: flex;
         flex-flow: column nowrap;
+        height: 300px;
     }
         .smallBox1{
             display: flex;
             flex-flow: row nowrap;
+            height: 60px;
         }
             .leftBox{
                 flex: 1 1 auto;;
             }
                 .imagenLogo {
-                    width: 70px;
-                    height: 70px;
+                    width: 60px;
+                    height: 50px;
                 }
             .centerBox {
-                background-color: #497174;
                 flex: 10 1 auto;
+                display: flex;
             }
+                .centerBox a {
+                    color: #94B49F;
+                    text-decoration: none;
+                    margin: 0 auto;
+                }
+                .centerBox a:hover {
+                    color: black;
+                }
             .rightBox {
-                background-color: #497174;
                 flex: 1 1 auto;
+                display: flex;
             }
-        .smallBox2 {
-            background-color: #F0FF42;
+                .rightBox a {
+                    color: #94B49F;
+                }
+                .rightBox a:hover {
+                    color: black;
+                }
+        .smallBox2{
+            background: #C7BCA1;
+            opacity: 0.6;
+            position: relative;
+            top: 170px;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
         }
             .insideSmallBox2 {
-                background-color: aqua;
+                color: #DF7861;
+                text-align: center;
+                opacity: 0.8;
+
             }
 
     .bigBox2 {
