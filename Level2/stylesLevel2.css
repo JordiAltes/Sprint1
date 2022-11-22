@@ -79,7 +79,7 @@ body {
             }
 
     .bigBox2 {
-        background-color: white;
+        background-color: #EAEAEA;
         display: flex;
     }
         .smallBox3 {
@@ -96,6 +96,9 @@ body {
                 margin: 10px;
                 background-color: white;
             }
+            .columna{
+                column-count: 2;
+            }
             .image{
                 width: 98%;
             }
@@ -111,9 +114,18 @@ body {
                     font-size: 25px;
                 }
             .inside2SmallBox3 {
-                background-color: #372948;
                 flex: 1 1 100%;
+                text-align: center;
             }
+            .LeerMas{
+                color: #3C4048;
+                margin-top: 15px;
+            }
+            .LeerMas:hover{
+                color: black;
+                text-decoration: underline;
+            }
+
         .smallBox4 {
             background-color: #94B49F;
             text-align: center;
@@ -122,16 +134,24 @@ body {
             .insideSmallBox4 {
                 padding: 0px;
             }
-            #negritaH4{
+            h4{
                 font-family: Arial, Helvetica, sans-serif;
             }
         
     .bigBox3 {
-        background-color: black;
+        background-color: #EAEAEA;
+        display: flex;
+        justify-content: center;
     }
         .smallBox5 {
-            background-color: #FCFFB2;
+            background-color: #94B49F;
+            text-align: center;
+            width: 95%;
+            margin-top: 0px;
+            margin-bottom: 0px;
         }
+
+        
 @media screen and (max-width: 800px) {
     .bigBox2 {
         background-color: #F0FF42;
