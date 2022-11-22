@@ -1,16 +1,17 @@
 * {
-    margin: 2px;
-    padding-top: 0px;
-    padding-left: 10px;
-    padding-right: 10px;
+    margin: 5px;
+    padding: 0px;
     box-sizing: border-box; 
 }
 body {
     font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    height: 100%;
 }
 .father{
     display: flex;
     flex-flow: column nowrap;
+    max-width: 1200px;
 }
     .bigBox1 {
         background: url(images/header.jpg);
@@ -28,7 +29,7 @@ body {
             align-items: center;
         }
             .leftBox{
-                flex: 1 1 auto;;
+                flex: 1 1 auto;
             }
                 .imagenLogo {
                     width: 80px;
@@ -68,6 +69,8 @@ body {
             width: 80%;
             background: #D6E4E5;
             opacity: 0.8;
+            align-items: flex-end;
+            margin-top: 145px;
         }
             .insideSmallBox2 {
                 color: #DF7861;
@@ -76,29 +79,51 @@ body {
             }
 
     .bigBox2 {
-        background-color: black;
+        background-color: white;
         display: flex;
     }
         .smallBox3 {
-            background-color: #9F8772;
-            flex: 2 1 auto;
+            background-color: #94B49F;
             display: flex;
             flex-flow: row wrap;
+            flex: 80
         }
             .insideSmallBox3 {
-                background-color: #002E94;
                 flex: 1 1 40%;
+                font-size: 13px;
+                flex: 1 1 35%;
+                width: 100%;
+                margin: 10px;
+                background-color: white;
             }
+            .image{
+                width: 98%;
+            }
+                h3{
+                    color: yellow;
+                    font-size: 13px;
+                    padding: 10px 0;
+                    margin-top: -50px;
+                }
+                h2{
+                    background-color: #A62349;
+                    color: white;
+                    font-size: 25px;
+                }
             .inside2SmallBox3 {
                 background-color: #372948;
                 flex: 1 1 100%;
             }
         .smallBox4 {
-            background-color: #DD5353;
-            flex: 1 1 auto;
+            background-color: #94B49F;
+            text-align: center;
+            flex: 20
         }
             .insideSmallBox4 {
-                background-color: #06283D;
+                padding: 0px;
+            }
+            #negritaH4{
+                font-family: Arial, Helvetica, sans-serif;
             }
         
     .bigBox3 {
