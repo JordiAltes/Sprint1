@@ -5,7 +5,6 @@
 }
 body {
   font-family: "Open Sans", sans-serif;
-  height: 100%;
 }
 .father {
   display: flex;
@@ -18,12 +17,11 @@ body {
   background-size: cover;
   display: flex;
   flex-flow: column nowrap;
-  height: 300px;
+  margin-bottom: 0%;
 }
 .smallBox1 {
   display: flex;
   flex-flow: row nowrap;
-  height: 60px;
   padding-top: 20px;
   align-items: center;
 }
@@ -57,19 +55,19 @@ body {
   color: black;
 }
 .smallBox2 {
-  height: 100%;
   align-items: center;
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  margin-bottom: 0px;
 }
 .clasH1 {
-  height: 80px;
+  height: 90px;
   width: 80%;
   background: #d6e4e5;
   opacity: 0.8;
   align-items: flex-end;
-  margin-top: 145px;
+  margin-bottom: 0%;
 }
 .insideSmallBox2 {
   color: #df7861;
@@ -162,9 +160,6 @@ h4 {
   .insideSmallBox2 {
     font-size: 25px;
   }
-  .rightBox {
-    margin-left: 370px;
-  }
 }
 @media all and (max-width: 480px) {
   .smallBox1 {
@@ -185,8 +180,5 @@ h4 {
   }
   .decreaseLetter {
     font-size: 15px;
-  }
-  .rightBox {
-    margin-left: 150px;
   }
 }
